@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.legend h4 {
+  margin-top: 0;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+}
+
+.legend-row i {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.color-legend {
+  margin-top: 10px;
+}
